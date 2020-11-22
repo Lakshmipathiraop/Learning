@@ -10,7 +10,9 @@ public class RestAppController {
 	
 	@GetMapping("/hello")
 	public static String sayHello() {
+		System.out.println("THis is nw commit done in master branch which is not in feature branch");
 		return "Hello Lucky,Welcome to the Rest world";
+		
 	}
 
 }
